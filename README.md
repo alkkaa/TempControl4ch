@@ -14,7 +14,7 @@ A SPI-compatible interface allows selection of thermocouple type and setup of th
 Benefits and Features
 ● Provides High-Accuracy Thermocouple Temperature Readings
   • Includes Automatic Linearization Correction for 8 Thermocouple Types
-  • ±0.15% (max, -20°C to +85°C) Thermocouple FullScale and Linearity Error
+  • ±0.15% (max, -20°C to +85°C) Thermocouple Full-Scale and Linearity Error
   • 19-Bit, 0.0078125°C Thermocouple Temperature Resolution
 ● Internal Cold-Junction Compensation Minimizes System Components
   • ±0.7°C (max, -20°C to +85°C) Cold-Junction Accuracy
