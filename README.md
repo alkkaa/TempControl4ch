@@ -2,17 +2,15 @@
 
 ## MAX31856 Precision Thermocouple to Digital Converter with Linearization
 
-### General Description
-<p>The MAX31856 performs cold-junction compensation and digitizes the signal from any type of thermocouple. 
-The output data is formatted in degrees Celsius.
-This converter resolves temperatures to 0.0078125°C, allows readings as high as +1800°C and as low as -210°C (depending on thermocouple type), and exhibits thermocouple voltage measurement accuracy of ±0.15%.
-The thermocouple inputs are protected against overvoltage conditions up to ±45V.
-A lookup table (LUT) stores linearity correction data for several types of thermocouples (K, J, N, R, S, T, E, and B).
-Line frequency filtering of 50Hz and 60Hz is included, as is thermocouple fault detection.
-A SPI-compatible interface allows selection of thermocouple type and setup of the conversion and fault detection processes.
-</p>
+>### General Description
+<p>
+The MAX31856 performs cold-junction compensation and digitizes the signal from any type of thermocouple. 
+The output data is formatted in degrees Celsius.<br>This converter resolves temperatures to 0.0078125°C, allows readings as high as +1800°C and as low as -210°C (depending on thermocouple type), and exhibits thermocouple voltage measurement accuracy of ±0.15%.
+<br>The thermocouple inputs are protected against overvoltage conditions up to ±45V.<br>A lookup table (LUT) stores linearity correction data for several types of thermocouple (K, J, N, R, S, T, E, and B)
+Line frequency filtering of 50Hz and 60Hz is included, as is thermocouple fault detection.<br>A SPI-compatible interface allows selection of thermocouple type and setup of the conversion and fault detection processes.
+<p>
 
-### Benefits and Features
+>### Benefits and Features
 <ul>
     <li>Provides High-Accuracy Thermocouple Temperature Readings
         <ul>
