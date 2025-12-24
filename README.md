@@ -37,4 +37,5 @@ Line frequency filtering of 50Hz and 60Hz is included, as is thermocouple fault 
     </li>
 </ul>
 
+>### Images
 ![Top View](/KiCad%20Project/TempControl4ch/Images/TempControl4chTop.png)
