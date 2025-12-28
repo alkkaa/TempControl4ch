@@ -4561,6 +4561,12 @@
 		(uuid "a1ef5418-de46-4df3-8a26-a642de2be12f")
 	)
 	(junction
+		(at 278.13 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a59da587-70d0-4f1c-aec3-2b2f38ea9b35")
+	)
+	(junction
 		(at 378.46 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5106,6 +5112,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 78.74) (xy 278.13 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d9485ba-0e5c-4098-8bf7-d32b8ef81c54")
+	)
+	(wire
+		(pts
 			(xy 199.39 165.1) (xy 207.01 165.1)
 		)
 		(stroke
@@ -5313,6 +5329,16 @@
 			(type default)
 		)
 		(uuid "2c3b5eb1-d4fe-42b4-bcc9-a4d9f8289363")
+	)
+	(wire
+		(pts
+			(xy 328.93 25.4) (xy 328.93 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dc84b96-d133-4353-8865-8c864b0d1835")
 	)
 	(wire
 		(pts
@@ -5896,6 +5922,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 35.56) (xy 326.39 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66c73119-8466-417f-bd33-78c58d5158d9")
+	)
+	(wire
+		(pts
 			(xy 161.29 158.75) (xy 157.48 158.75)
 		)
 		(stroke
@@ -6013,6 +6049,16 @@
 			(type default)
 		)
 		(uuid "73bc904b-1e0a-41fe-9860-1037da0c07f9")
+	)
+	(wire
+		(pts
+			(xy 280.67 78.74) (xy 278.13 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "753cd6ea-3446-4cf2-9fe1-dbb01d35cdd0")
 	)
 	(wire
 		(pts
@@ -6763,6 +6809,16 @@
 			(type default)
 		)
 		(uuid "b0e4bc85-e922-4cfb-9404-94aa58543a90")
+	)
+	(wire
+		(pts
+			(xy 278.13 81.28) (xy 278.13 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1dc3255-1954-42e1-925c-3c415b5445e2")
 	)
 	(wire
 		(pts
@@ -7883,6 +7939,16 @@
 			(type default)
 		)
 		(uuid "ff0b5896-5a46-443b-b59a-a8f63988a666")
+	)
+	(wire
+		(pts
+			(xy 278.13 81.28) (xy 280.67 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffa6899c-0695-44e3-9df6-152e51cce953")
 	)
 	(wire
 		(pts
@@ -14174,6 +14240,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 278.13 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6a9192b-3ba7-4213-bb96-b2d3a67b5f30")
+		(property "Reference" "#PWR036"
+			(at 278.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 283.718 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 278.13 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d652f358-06d3-4399-8ac8-cf2cf00963a0")
+		)
+		(instances
+			(project "TempControl4ch"
+				(path "/bfcf5f5c-9721-40d4-a7af-7e2f1fa1b9b1"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 288.29 120.65 0)
 		(unit 1)
@@ -14237,6 +14368,71 @@
 			(project "TempControl4ch"
 				(path "/bfcf5f5c-9721-40d4-a7af-7e2f1fa1b9b1"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 328.93 25.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd198024-ddb2-4ad3-ac6b-dc59874afb24")
+		(property "Reference" "#PWR037"
+			(at 328.93 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 323.342 23.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 328.93 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 328.93 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "638e196d-dcc8-4e09-a388-2359edab89e9")
+		)
+		(instances
+			(project "TempControl4ch"
+				(path "/bfcf5f5c-9721-40d4-a7af-7e2f1fa1b9b1"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
